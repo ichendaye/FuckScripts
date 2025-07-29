@@ -133,11 +133,7 @@ const main = {
         GM_addStyle(`
 .link_vip.__open_vip_tv,
 .playlist-vip-section__vip,
-#iwan-game,
-#iwan-game-pendant,
-#iwan-game-recommends,
-#iwan-gamependant-page,
-#iwan-gamesearchrank-page,
+[id^="iwan-game"],
 a[href*="qqgame."],
 a[href*="iwan."],
 .video-banner:has([data-ckey*="qqgame.qq.com"]),
