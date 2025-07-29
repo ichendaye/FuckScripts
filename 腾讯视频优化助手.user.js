@@ -8,9 +8,9 @@
 // @supportURL   https://github.com/geoisam/FuckScripts/issues
 // @require      https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.22.2/sweetalert2.min.js
 // @resource     swalStyle https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.22.2/sweetalert2.min.css
-// @match        http*://*v.qq.com/*
-// @match        http*://*film.qq.com/*
-// @match        http*://*video.qq.com/*
+// @match        http*://*.v.qq.com/*
+// @match        http*://*.film.qq.com/*
+// @match        http*://*.video.qq.com/*
 // @run-at       document-start
 // @grant        unsafeWindow
 // @grant        GM_addStyle
