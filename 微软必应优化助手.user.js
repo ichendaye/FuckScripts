@@ -181,7 +181,6 @@ const main = {
 #sacs_win,
 .b_vfly,
 .b_bza_pole,
-li.b_algo:has([class*="_ad"]),
 li.b_algo:has(.b_attribution[data-partnertag]),
 li.b_algo[style],
 li:has([class*="_adTA"]),
@@ -250,7 +249,7 @@ li:has(.b_adSlug),
 #b_content ol li.b_ans,#b_content ol li.b_algo { margin: 0.5rem !important; }
 #b_content ol li.aca_algo { margin: auto !important; }
 #b_content main { order: 0; }
-#b_content aside { order: -1;margin-top: 10px; }
+#b_content aside { order: -1;margin-top: 1.5rem; }
 #b_content footer { order: 1; }
 #b_tween,#b_navheader,.aca_algo_count{ text-align: center;margin: 5px auto !important; }
 .b_deep ul,.b_nwsAns,.b_rs,#gs_main .gs_h{ width: 100% !important; }
