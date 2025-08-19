@@ -418,7 +418,7 @@ obj.taskPromo = async function () {
                 if (promotionsArr.length < 1) {
                     obj.task.promo.end++
                     if (GM_getValue("task_promo", 0) != obj.data.time.dateNowNum) {
-                        obj.pushMsg("活动推广🟢", "哇！哥哥好棒！活动推广完成了！")
+                        obj.pushMsg("活动推广🟢", "活动推广完成了！")
                     }
                     GM_setValue("task_promo", obj.data.time.dateNowNum)
                     return true
@@ -499,7 +499,7 @@ obj.taskRead = async function () {
         if (readPro.progress >= readPro.max) {
             obj.task.read.end++
             if (GM_getValue("task_read", 0) != obj.data.time.dateNowNum) {
-                obj.pushMsg("文章阅读🟢", "哇！哥哥好棒！文章阅读完成了！")
+                obj.pushMsg("文章阅读🟢", "文章阅读完成了！")
             }
             GM_setValue("task_read", obj.data.time.dateNowNum)
             return true
@@ -540,7 +540,7 @@ obj.taskSign = function () {
     } else if (obj.task.sign.point == 0) {
         obj.task.sign.end++
         if (GM_getValue("task_sign", 0) != obj.data.time.dateNowNum) {
-            obj.pushMsg("App签到🟢", "哇！哥哥好棒！App签到完成了！")
+            obj.pushMsg("App签到🟢", "App签到完成了！")
         }
         GM_setValue("task_sign", obj.data.time.dateNowNum)
         return true
@@ -676,7 +676,7 @@ obj.taskSearch = async function () {
             if (obj.task.search.pc.progress >= obj.task.search.pc.max && obj.task.search.m.progress >= obj.task.search.m.max) {
                 obj.task.search.end++
                 if (GM_getValue("task_search", 0) != obj.data.time.dateNowNum) {
-                    obj.pushMsg("必应搜索🟢", `哇！哥哥好棒！必应搜索完成了！`)
+                    obj.pushMsg("必应搜索🟢", `必应搜索完成了！`)
                 }
                 GM_setValue("task_search", obj.data.time.dateNowNum)
                 return true
